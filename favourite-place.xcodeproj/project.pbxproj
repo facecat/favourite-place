@@ -12,6 +12,7 @@
 		92C501251C23079C00CDBF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C501231C23079C00CDBF69 /* Main.storyboard */; };
 		92C501271C23079C00CDBF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C501261C23079C00CDBF69 /* Assets.xcassets */; };
 		92C5012A1C23079C00CDBF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C501281C23079C00CDBF69 /* LaunchScreen.storyboard */; };
+		92DCFCE31C2314AC009B209B /* findOutMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCFCE21C2314AC009B209B /* findOutMoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		92C501261C23079C00CDBF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C501291C23079C00CDBF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92C5012B1C23079C00CDBF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DCFCE21C2314AC009B209B /* findOutMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findOutMoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				92C5011F1C23079C00CDBF69 /* AppDelegate.swift */,
 				92C501211C23079C00CDBF69 /* ViewController.swift */,
+				92DCFCE21C2314AC009B209B /* findOutMoreViewController.swift */,
 				92C501231C23079C00CDBF69 /* Main.storyboard */,
 				92C501261C23079C00CDBF69 /* Assets.xcassets */,
 				92C501281C23079C00CDBF69 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DCFCE31C2314AC009B209B /* findOutMoreViewController.swift in Sources */,
 				92C501221C23079C00CDBF69 /* ViewController.swift in Sources */,
 				92C501201C23079C00CDBF69 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				92C501301C23079C00CDBF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
